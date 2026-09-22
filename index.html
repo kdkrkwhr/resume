@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta name="description" content="김동기 | Java·Spring 기반 백엔드 엔지니어. 서비스 설계와 운영, LLM·RAG 기능 개발 경험을 소개합니다." />
+    <title>김동기 | Backend Engineer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">본문으로 이동</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="김동기, 맨 위로">DK<span class="brand-dot">.</span></a>
+      <nav aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#work">경력</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">BACKEND ENGINEER · SEOUL</p>
+          <h1 id="hero-title">서비스를 만들고,<br /><em>운영까지 책임지는</em><br />개발자 김동기입니다.</h1>
+          <p class="hero-lead">Java·Spring 기반 API와 데이터 흐름을 설계해 왔습니다. 최근에는 임상연구 솔루션의 Java 전환과 LLM·RAG 기능 개발에 집중하고 있습니다.</p>
+          <div class="actions">
+            <a class="button primary" href="#work">경력 살펴보기 <span aria-hidden="true">↗</span></a>
+            <a class="button text-button" href="https://github.com/kdkrkwhr" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="핵심 분야">
+          <div class="card-top"><span>01 / PROFILE</span><span class="spark" aria-hidden="true">✳</span></div>
+          <p>Backend<br /><strong>+</strong> AI</p>
+          <div class="card-rule"></div>
+          <span>Java · Spring Boot · Event Systems<br />Spring AI · RAG · Service Operations</span>
+        </aside>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="wrap section-grid">
+          <div><p class="eyebrow">ABOUT</p><h2 id="about-title">기술을 넘어<br />서비스의 흐름을 봅니다.</h2></div>
+          <div class="section-body">
+            <p class="large">교통 관제와 IoT 플랫폼에서 시작해 여행 플랫폼의 리뷰·콘텐츠·알림 서비스를 개발했습니다. 지금은 의료데이터 기반 솔루션에서 백엔드 전환과 지식 검색 기능을 담당합니다.</p>
+            <p>API·데이터 모델 설계, 이벤트 연동, 배포·운영 경험을 바탕으로 문제의 원인과 변경의 영향을 함께 살핍니다. AI를 활용한 개발에서도 설계 기록과 실제 코드·빌드 결과를 대조하며 작업합니다.</p>
+            <div class="skill-list" aria-label="기술 분야">
+              <span>Java / Spring Boot</span><span>MySQL / PostgreSQL</span><span>Redis / Kafka</span><span>Spring AI / RAG</span><span>Linux / CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><p class="eyebrow">EXPERIENCE</p><h2 id="work-title">경력과 주요 작업</h2><p>맡았던 문제와 구현 범위를 중심으로 정리했습니다.</p></div>
+        <div class="timeline">
+          <article class="job"><div class="job-meta"><span>2026.05 — 현재</span><span class="current">CURRENT</span></div><div class="job-content"><h3>메디플렉서스 <small>솔루션개발팀 · 과장 / 팀장</small></h3><p class="job-summary">임상연구 지원 솔루션의 기술 전환과 AI 기능 개발</p><ul><li>.NET 기반 솔루션을 분석하고 Java·Spring Boot 전환 구조와 도메인 모델을 재설계했습니다.</li><li>기능 단위의 점진적 전환을 진행하고, Spring AI 기반 LLM 연동과 의료·연구 지식 검색용 RAG 기능을 개발했습니다.</li><li>설계·의사결정 기록을 Git에 남기고 AI 작업 결과를 코드와 검증 결과에 대조하는 흐름을 정리했습니다.</li></ul></div></article>
+          <article class="job"><div class="job-meta"><span>2022.05 — 2026.05</span></div><div class="job-content"><h3>여기어때컴퍼니 <small>여행플랫폼개발실 · 선임연구원 / 매니저</small></h3><p class="job-summary">여행 플랫폼의 콘텐츠·리뷰·알림·상담 기능 개발</p><ul><li>Spring Boot 기반 콘텐츠 서비스를 리팩터링하고 Redis 캐시·무효화 전략, 부하 테스트, 배포·롤백 절차를 적용했습니다.</li><li>푸시·이메일·SMS·인앱 알림을 통합하는 이벤트 처리 구조를 설계하고 Outbox 패턴과 Redis 기반 상태 관리를 구현했습니다.</li><li>Kafka를 통한 주문·결제 이벤트 연동과 리뷰 API를 개발했습니다.</li><li>Spring AI·Ollama를 이용한 상담 챗봇의 스트리밍 응답과 RAG 기반 지식 검색을 구현했습니다.</li></ul></div></article>
+          <article class="job"><div class="job-meta"><span>2022.01 — 2022.05</span></div><div class="job-content"><h3>GS ITM <small>에너지솔루션팀 · 연구원 / 매니저</small></h3><p class="job-summary">에너지플러스 결제·쿠폰 API 개발</p><ul><li>Spring Boot 기반 결제 흐름과 쿠폰 발급·사용·적립 API를 개발하고 외부 관제 연계 문제를 수정했습니다.</li></ul></div></article>
+          <article class="job"><div class="job-meta"><span>2019.12 — 2021.12</span></div><div class="job-content"><h3>케이웨더 <small>IoT 개발팀 · 사원</small></h3><p class="job-summary">IoT 플랫폼과 공기질 데이터 서비스 개발·운영</p><ul><li>장비·사용자 관리 API, 관제 화면, 위치·기상 데이터 수집 및 통계 기능을 개발했습니다.</li><li>Air365 앱 백엔드와 FCM 푸시 서버, 공공데이터 개방 API를 구축하고 Linux 서버를 운영했습니다.</li></ul></div></article>
+          <article class="job"><div class="job-meta"><span>2018.11 — 2019.11</span></div><div class="job-content"><h3>유아이네트웍스 <small>스마트인텔리전스팀 · 주임</small></h3><p class="job-summary">실시간 위치 관제와 교통 영상처리</p><ul><li>위치 데이터 API, WebSocket 기반 관제 화면, PostgreSQL·OSM을 이용한 경로 탐색 기능을 개발했습니다.</li><li>Python·OpenCV 기반 교통 영상 분석 기능 개발에 참여했습니다.</li></ul></div></article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects" aria-labelledby="projects-title"><div class="wrap"><div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2 id="projects-title">공개 프로젝트와 글</h2><p>직접 확인할 수 있는 결과물을 모았습니다.</p></div><div class="project-grid"><article class="project-card"><div class="project-number">01 / WEB APPLICATION</div><h3>Hermes Agent Area</h3><p>에이전트 작업 상태를 2D 가상 사무실과 칸반 화면으로 보여주는 웹 애플리케이션입니다. 공개 데모는 예시 데이터로 동작합니다.</p><div class="project-tags"><span>JavaScript</span><span>Phaser</span><span>Vite</span></div><div class="project-links"><a href="https://kdkrkwhr.github.io/hermes-agent-area/" target="_blank" rel="noopener noreferrer">데모 ↗</a><a href="https://github.com/kdkrkwhr/hermes-agent-area" target="_blank" rel="noopener noreferrer">소스 ↗</a></div></article><article class="project-card"><div class="project-number">02 / AGENT TOOLING</div><h3>Agent Hub Radio</h3><p>Claude Code·Codex CLI·Cursor Agent를 한 화면에서 연결하는 로컬 에이전트 허브입니다. 독립 의견 토론·투표, 역할 분담 작업과 결과물 검토 흐름을 구현했습니다.</p><div class="project-tags"><span>Python</span><span>SQLite</span><span>HTML / CSS / JS</span></div><div class="project-links"><a href="https://github.com/kdkrkwhr/agent-hub" target="_blank" rel="noopener noreferrer">소스와 화면 보기 ↗</a></div></article><article class="project-card writing"><div class="project-number">03 / WRITING</div><h3>개발 과정을 기록합니다</h3><p>백엔드·DevOps·AI 개발 워크플로우와 AI 산출물 교차검수 사례를 기술 블로그에 정리합니다.</p><div class="project-links"><a href="https://kdkrkwhr.github.io/" target="_blank" rel="noopener noreferrer">기술 블로그 보기 ↗</a></div></article></div></div></section>
+
+      <section class="section more wrap" aria-labelledby="more-title"><div><p class="eyebrow">BEYOND CODE</p><h2 id="more-title">경험을 나누고<br />다음 작업에 남깁니다.</h2></div><div class="section-body"><p>프로그래머스 백엔드 과정에서 세 차례 프로젝트 멘토로 참여해 API·DB 설계, 코드 리뷰, 포트폴리오 구성에 관해 조언했습니다.</p><p>학점은행제 컴퓨터공학 학사 과정을 마쳤으며 정보처리산업기사 자격을 보유하고 있습니다.</p></div></section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><p class="eyebrow">CONTACT</p><h2 id="contact-title">함께 풀어갈 문제가 있다면<br /><em>연결해 주세요.</em></h2><div class="contact-links"><a href="https://www.linkedin.com/in/dong-ki-kim-027328188/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/kdkrkwhr" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://kdkrkwhr.github.io/" target="_blank" rel="noopener noreferrer">Blog ↗</a></div></div></section>
+    </main>
+    <footer class="site-footer wrap"><span>© <span id="year">2026</span> 김동기</span><a href="#top">맨 위로 ↑</a></footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
